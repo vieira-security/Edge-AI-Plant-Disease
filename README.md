@@ -4,9 +4,8 @@
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](requirements.txt)
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow.svg)](#-limitações)
 
-> Projeto da disciplina de Inteligência Artificial — Universidade Presbiteriana Mackenzie
+> Universidade Presbiteriana Mackenzie
 > Faculdade de Computação e Informática — 7º Período CC Noite
-> Prof. Dr. Ivan Carlos Alcântara de Oliveira
 
 ---
 
@@ -200,12 +199,6 @@ Enquanto isso, os modelos podem ser gerados localmente com `src/train.py` + `src
 | N1 (parcial) | [`docs/relatorio_parcial/Artigo_N1_proposta.pdf`](docs/relatorio_parcial/Artigo_N1_proposta.pdf) | Proposta e resultados **esperados** (não medidos) — mantido por histórico da disciplina. |
 
 Ver [`docs/README.md`](docs/README.md) para uma pendência conhecida (URL do repositório citada nos PDFs ainda não atualizada na fonte).
-
----
-
-## 🎥 Vídeo de Demonstração
-
-**[TODO: adicionar link do vídeo antes da entrega final]** — o artigo N2 menciona um vídeo de demonstração no YouTube, mas o link ainda não foi incluído nos documentos nem informado à equipe até o momento desta auditoria.
 
 ---
 
