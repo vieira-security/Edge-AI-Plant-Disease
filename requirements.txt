@@ -1,0 +1,35 @@
+# Dependências de TREINO/DESENVOLVIMENTO (ambiente com TensorFlow completo).
+# Para inferência no Raspberry Pi (edge), use requirements-edge.txt em vez deste.
+#
+# Instalação:
+#   pip install -r requirements.txt
+#
+# Versões testadas e verificadas nesta auditoria (Python 3.11, Windows),
+# usadas para executar de fato os notebooks em notebooks/.
+
+tensorflow==2.15.0
+# tf-keras (Keras 2 legado) é usado DIRETAMENTE por src/train.py, src/quantize.py
+# e notebooks/02 — necessário porque tensorflow-model-optimization (QAT) exige
+# esse tipo especificamente; misturar com tensorflow.keras no mesmo grafo de
+# modelo quebra o QAT silenciosamente (bug real encontrado nesta auditoria).
+tf-keras==2.15.1
+tensorflow-model-optimization==0.8.1
+scikit-learn==1.9.0
+matplotlib==3.11.1
+seaborn==0.13.2
+pandas==3.0.5
+numpy==1.26.4
+Pillow==12.2.0
+opencv-python-headless==4.11.0.86
+tqdm==4.70.0
+paho-mqtt==2.1.0
+jupyter==1.1.1
+nbconvert==7.17.1
+nbformat==5.11.0
+
+# Baixar o dataset completo (opção Kaggle CLI — ver dataset/README.md)
+kaggle==2.2.4
+
+# Testes e lint (ver tests/ e .github/workflows/lint.yml)
+pytest==9.1.1
+ruff==0.16.2

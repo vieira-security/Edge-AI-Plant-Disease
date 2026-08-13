@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Se você usar este trabalho, por favor cite-o conforme os metadados abaixo."
+type: software
+title: "Edge AI para Detecção de Estresse Hídrico e Pragas com Redução de Overhead de Rede"
+abstract: >-
+  Sistema de visão computacional embarcado em dispositivos de borda
+  (Raspberry Pi 4) para identificar, em tempo real, sintomas de estresse
+  hídrico, doenças foliares e presença de pragas em plantações, usando
+  MobileNetV2 quantizado (TensorFlow Lite) e transmissão de alertas
+  estruturados via LoRaWAN/MQTT.
+authors:
+  - given-names: Gabriel
+    family-names: Vieira de Sousa
+    email: 10410264@mackenzista.com.br
+    affiliation: "Universidade Presbiteriana Mackenzie"
+  - given-names: Guilherme
+    family-names: Rainho Geraldo
+    email: 10418251@mackenzista.com.br
+    affiliation: "Universidade Presbiteriana Mackenzie"
+repository-code: "https://github.com/vieira-security/Edge-AI-Plant-Disease"
+license: MIT
+version: "N2"
+date-released: "2026-05-28"
+keywords:
+  - edge-ai
+  - tensorflow-lite
+  - mobilenetv2
+  - visão computacional
+  - agricultura de precisão
+  - lorawan
+  - deep learning

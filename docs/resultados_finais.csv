@@ -1,0 +1,4 @@
+Modelo,Acuracia (%),F1-Score (macro),Tamanho (MB),Latencia estimada RPi4 (ms),Escopo
+MobileNetV2 FP32,81.91,0.8132,9.74,189,amostra (1.824 imgs)
+INT8 PTQ,82.66,0.7910,2.90,45,amostra (1.824 imgs)
+INT8 QAT,58.47,0.5561,3.84,48,amostra (1.824 imgs)

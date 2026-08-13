@@ -1,0 +1,17 @@
+# Dependências de INFERÊNCIA no dispositivo de borda (Raspberry Pi 4).
+# Mais leve que requirements.txt: usa tflite-runtime em vez do TensorFlow
+# completo (que não roda bem em ARM de baixo recurso).
+#
+# Instalação no Raspberry Pi 4 (Raspberry Pi OS 64-bit, Python 3.9+):
+#   pip install -r requirements-edge.txt
+#
+# tflite-runtime não tem wheel oficial para todas as combinações de SO/Python
+# no PyPI padrão — se `pip install` falhar, use o índice do Google Coral ou
+# compile a partir do fonte:
+# https://www.tensorflow.org/lite/guide/python
+
+tflite-runtime==2.14.0
+opencv-python-headless==4.11.0.86
+Pillow==12.2.0
+numpy==1.26.4
+paho-mqtt==2.1.0
